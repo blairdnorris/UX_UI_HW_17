@@ -1,0 +1,116 @@
+body {
+    padding: 10px;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    /* border: solid black; */
+    padding: 16px 32px;
+    word-spacing: 61px;
+    color: #4CE3EE;
+    font-size: 36px;
+}
+
+.logo {
+    width: 224px;
+    height: 171px;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+h1 {
+    padding: 20px 0px;
+    color: #e4d7e6;
+    max-width: 300px;
+    font-size: 40px;
+}
+p {
+    padding: 10px;
+    font-size: 25px;
+    color: #e4d7e6;
+    max-width: 800px;
+    max-height: 700px;
+}
+
+.info {
+    max-width: 700px;
+    padding: 10px;
+    font-size: 30px;
+    color: #e4d7e6;
+    margin-bottom: 100px;
+    
+}
+
+.skill {
+    font-size: 60px;
+    color: #4CE3EE;
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    padding: 300px;
+    font-size: 60px;
+    margin: 100px;
+    align-items: center;
+}
+
+.boo {
+    height: 400px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.work {
+    display: flex;
+    flex-direction: column;
+    color: #e4d7e6;
+    font-size: 60px;
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    margin: 80px;
+    margin-bottom: 50px;
+}
+.silly {
+    height: 400px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px
+}
+
+footer {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foot {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.email {
+    color: #4CE3EE;
+    font-size: 36px;
+    text-align: center;
+}
